@@ -1,6 +1,6 @@
 FROM node:latest
 
-MAINTAINER Armagan Amcalar "armagan@amcalar.com"
+MAINTAINER Julian Kipka
 
 RUN npm install -g pm2@latest
 RUN pm2 install pm2-auto-pull
