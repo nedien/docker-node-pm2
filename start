@@ -5,4 +5,4 @@ if [ -z "$APP" ]; then
 fi
 
 cd /app
-pm2 start -x $APP --no-daemon
+pm2 start -x $APP --watch --no-daemon
